@@ -1,7 +1,3 @@
-Po co to zrobiłem?
-===
-Żeby wszystko było w jednym miejscu, nie trzeba było zaśmiecać dysku plikami żeby przejrzeć kod, i żeby łatwo było wszystko na raz ściągnąć :P
-
 Legenda
 ===
 Ogólnie dzielę kod na trzy główne części:<ol>
