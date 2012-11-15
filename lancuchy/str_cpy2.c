@@ -7,8 +7,8 @@ int main()
 {
 	char a[] = "abcd";
 	char *b;
-	b = (char *)malloc(str_len(a) + 1); // przypisanie rozmiaru zmiennej a do zmiennej b, ¿eby
-					// nie trzeba by³o liczyæ rozmiaru zmiennej a i wpisywaæ go: *b zamiast b[5].
+	b = (char *)malloc(str_len(a) + 1); // przypisanie rozmiaru zmiennej a do zmiennej b, zeby
+					// nie trzeba bylo liczyc rozmiaru zmiennej a i wpisywac go: *b zamiast b[5].
 	str_cpy(a,b);
 
 	printf("%s", b);
@@ -18,7 +18,7 @@ int main()
 }
 
 /**
- * Kopiowanie ³añcucha znaków
+ * Kopiowanie lancucha znaków
  */
 void str_cpy(char *from, char *to) {
 	while(*to++=*from++)
@@ -26,7 +26,7 @@ void str_cpy(char *from, char *to) {
 }
 
 /**
- * Pobieranie d³ugoœci ³añcucha, bez '\0'
+ * Pobieranie dlugosci lancucha, bez '\0'
  */
 int str_len(char str[]) {
 	int count = 0;

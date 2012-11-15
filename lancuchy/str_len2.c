@@ -4,15 +4,15 @@ int str_len(char*);
 
 int main()
 {
-   char *a = "abcd";
-   printf("%d", str_len(a));
+	char *a = "abcd";
+	printf("%d", str_len(a));
 
-   getchar();
-   return 0;
+	getchar();
+	return 0;
 }
 
 /**
- * Krótsze pobieranie d³ugoœci ³añcucha
+ * Krotsze pobieranie dlugosci lancucha
  */
 int str_len(char *str) {
 	int count = 0;
