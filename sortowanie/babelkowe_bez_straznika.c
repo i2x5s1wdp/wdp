@@ -5,7 +5,8 @@ void sortuj_m(int*, int);
 
 void sortuj(int*, int, char);
 
-int main() {
+int main() 
+{
 	int tab[] = {5, 1, 3, 0, 9};
 	int i, size = sizeof(tab) / sizeof(tab[0]); // obliczanie ilosci elementow w tablicy
 
@@ -21,7 +22,8 @@ int main() {
 /**
  * Sortowanie babelkowe - rosnaco
  */
-void sortuj_r(int *tabl, int rozmiar) {
+void sortuj_r(int *tabl, int rozmiar) 
+{
 	int i, j, temp;
 	for(i = 0; i < rozmiar - 1; i++)
 	{
@@ -40,9 +42,10 @@ void sortuj_r(int *tabl, int rozmiar) {
 /**
  * Sortowanie babelkowe - malejaco
  */
-void sortuj_m(int *tabl, int rozmiar) {
-   int i, j, temp;
-   for(i = 0; i < rozmiar - 1; i++)
+void sortuj_m(int *tabl, int rozmiar) 
+{
+    int i, j, temp;
+    for(i = 0; i < rozmiar - 1; i++)
 	{
 		for(j = 0; j < rozmiar - 1; j++) 
 		{
@@ -62,7 +65,8 @@ void sortuj_m(int *tabl, int rozmiar) {
  * sortuj(tab, size, 'r') - sortuje rosn¹co
  * sortuj(tab, size, 'm') - sortuje malej¹co
  */
-void sortuj(int *tabl, int rozmiar, char flaga) {
+void sortuj(int *tabl, int rozmiar, char flaga) 
+{
 	int i, j, temp;
 	for(i = 0; i < rozmiar - 1; i++)
 	{
