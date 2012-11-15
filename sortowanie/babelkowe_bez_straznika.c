@@ -22,8 +22,7 @@ int main()
 /**
  * Sortowanie babelkowe - rosnaco
  */
-void sortuj_r(int *tabl, int rozmiar) 
-{
+void sortuj_r(int *tabl, int rozmiar) {
 	int i, j, temp;
 	for(i = 0; i < rozmiar - 1; i++)
 	{
@@ -42,8 +41,7 @@ void sortuj_r(int *tabl, int rozmiar)
 /**
  * Sortowanie babelkowe - malejaco
  */
-void sortuj_m(int *tabl, int rozmiar) 
-{
+void sortuj_m(int *tabl, int rozmiar) {
     int i, j, temp;
     for(i = 0; i < rozmiar - 1; i++)
 	{
@@ -65,8 +63,7 @@ void sortuj_m(int *tabl, int rozmiar)
  * sortuj(tab, size, 'r') - sortuje rosn¹co
  * sortuj(tab, size, 'm') - sortuje malej¹co
  */
-void sortuj(int *tabl, int rozmiar, char flaga) 
-{
+void sortuj(int *tabl, int rozmiar, char flaga) {
 	int i, j, temp;
 	for(i = 0; i < rozmiar - 1; i++)
 	{
